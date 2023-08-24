@@ -1,0 +1,16 @@
+{
+  "extends": "./jsconfig.paths.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@app": ["src/App.js"],
+      "@router": ["src/route/Router.js"],
+      "@async-component": ["src/libs/AsyncComponent.js"],
+      "@modules/*": ["src/modules/*"],
+      "@HOME/*": ["src/modules/HOME/*"],
+      "@INFO/*": ["src/modules/INFO/*"],
+      "@Test": ["src/modules/HOME/route.js"]
+    }
+  },
+  "include": ["src"]
+}

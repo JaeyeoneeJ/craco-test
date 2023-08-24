@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src/",
+    "paths": {
+      "@app": ["App.js"],
+      "@router": ["route/Router.js"],
+      "@async-component": ["libs/AsyncComponent.js"],
+      "@modules/*": ["modules/*"],
+      "@HOME/*": ["modules/HOME/*"],
+      "@INFO/*": ["modules/INFO/*"],
+      "@Test": ["modules/HOME/route.js"]
+    }
+  }
+}
